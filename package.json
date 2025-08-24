@@ -1,0 +1,30 @@
+{
+  "name": "productivity-tracker-extension",
+  "version": "1.0.0",
+  "description": "Chrome Extension for tracking website usage and productivity analytics by Akshay",
+  "main": "index.js",
+  "scripts": {
+    "start": "cd backend && npm start",
+    "install-backend": "cd backend && npm install",
+    "dev": "cd backend && npm run dev",
+    "build": "echo 'Chrome extension ready for loading'"
+  },
+  "keywords": [
+    "chrome-extension",
+    "productivity",
+    "time-tracking",
+    "website-analytics",
+    "javascript",
+    "nodejs",
+    "sqlite"
+  ],
+  "author": "Akshay",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/akshay/productivity-tracker"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
